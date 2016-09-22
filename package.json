@@ -1,0 +1,30 @@
+{
+  "name": "ra-js",
+  "version": "0.1.0",
+  "description": "An engine for ra-parser that is pure javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --harmony `which nodeunit` test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "relational",
+    "algebra",
+    "parser",
+    "relational-algerba",
+    "ra-parser",
+    "ra",
+    "rajs"
+  ],
+  "author": "Adel Lahlou <alahlou+git@u.northwestern.edu> (https://github.com/adellahlou)",
+  "license": "MIT",
+  "dependencies": {
+    "ra-parser": "^0.1.6"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.10.2"
+  }
+}
